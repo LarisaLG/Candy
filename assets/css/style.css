@@ -1,1 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');git 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    min-height: 100%;
+    color: #102b5a;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  /* heading menu and logo */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 5px;
+    background-color: #102b5a;
+  }
+  
+  .head_logo img {
+    height: 150px;
+    width: auto;
+    margin-left: 20px;
+  }
+  
+  h1 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 200%;
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  /* navigation */
+  
+  #menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+  }
+  
+  #menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    /* margin-top: auto; */
+  }
+  
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #menu a:hover {
+    color: #ff6264;
+  }
+  
+  .active {
+    border-bottom: 2px solid #ff6264;
+  }
+  
