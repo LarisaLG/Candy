@@ -73,7 +73,6 @@
 
   /* SECTION TOUCH */
 
-
   .touch_title {
     text-align: center;
     letter-spacing: 4px;
@@ -90,7 +89,6 @@
     justify-content: space-evenly;
     align-items: flex-end;
     flex-wrap: wrap;
-  
   }
   
   .touch_item {
@@ -127,7 +125,6 @@ footer {
     color: #fff;
     text-align: center; 
     background-color: #102b5a;
- 
   } 
   
   #social > li {
