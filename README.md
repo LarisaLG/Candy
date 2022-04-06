@@ -1,4 +1,4 @@
-# Candy Gift
+# Candy Gift - Portfolio Project 1
 
 [Live webpage]()
 
@@ -8,7 +8,7 @@
     + [Site Owner Goals](#site-owner-goals)
 2. [User Experience (UX)](#user-experience)
 3. [Design](#design)
-   + [Color scheme](#color scheme)
+   + [Color scheme](#color-scheme)
    + [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
    + [Languages](#languages)
@@ -45,9 +45,10 @@ As a site owner, she wants as follows:
 * Good information presentation and a visually appealing design 
 * An easy way to contact the owner
 
+
 ## Design
 
-### Color Scheme
+### Color scheme
 
 The color scheme I developed based on the original image of the logo using [AdobeColor](https://color.adobe.com/create/image).
 Afterwards I used [Coolors](https://coolors.co/) to select a matching pallete. 
