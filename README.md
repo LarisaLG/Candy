@@ -52,8 +52,12 @@ As a site owner, she wants as follows:
 
 The color scheme I developed based on the original image of the logo using [AdobeColor](https://color.adobe.com/create/image).
 Afterwards I used [Coolors](https://coolors.co/) to select a matching pallete. 
+Also in the final project, some shades of colors from the palette can be used.
 
 ![Colour Scheme](assets/docs/images/color_pallete.png)
 
+To see what  generated color pallete matches best I used  eightshapes.com to generate an accesibility table.
+
+![Accesibility_table](assets/docs/images/color_accessibility.png)
 
 ### Wireframes
