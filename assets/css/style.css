@@ -74,13 +74,13 @@
 
   /* SECTION TOUCH */
 
-  .touch_title {
+  .touch-title {
     text-align: center;
     letter-spacing: 4px;
     margin: 20px 0 20px;
   }
   
-  .touch_features {
+  .touch-features {
     min-height: 250px;
     width: 75%;
     margin: 10px auto 30px;
@@ -92,7 +92,7 @@
     flex-wrap: wrap;
   }
   
-  .touch_item {
+  .touch-item {
     display: inline-block;
     width: 275px;
     min-height: 200px;
@@ -101,7 +101,7 @@
   
   }
   
-  .touch_icon i {
+  .touch-icon i {
     width: 90px;
     height: 90px;
     font-size: 2.5rem;
@@ -113,7 +113,7 @@
     padding: 1rem;
   }
   
-  .address_title {
+  .address-title {
     text-transform: uppercase;
     text-align: center;
   }
@@ -202,7 +202,7 @@ footer {
 .welcome-subtitle {
   border-bottom: 3px solid #ff6264;
   margin-bottom: 15px;
-  align-self: center;
+  align-self: flex-end;
   line-height: 2;
 }
 /* HOME PAGE END*/
