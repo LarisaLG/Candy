@@ -40,6 +40,7 @@
     text-align: center;
     margin: 30px 0;
   }
+
   
   /* NAVIGATION */
   
@@ -68,7 +69,7 @@
   .active {
     border-bottom: 2px solid #ff6264;
   }
-  
+  /* HEADING MENU AND LOGO  END*/
 
 
   /* SECTION TOUCH */
@@ -104,7 +105,6 @@
     width: 90px;
     height: 90px;
     font-size: 2.5rem;
-    /* background-color: #B1C3D2; */
     color: #fff;
     vertical-align: middle;
     margin: -25px 0 20px;
@@ -117,6 +117,8 @@
     text-transform: uppercase;
     text-align: center;
   }
+
+  /* SECTION TOUCH END*/
 
 
   /*  FOOTER */
@@ -138,8 +140,10 @@ footer {
     margin: 0 20px ;
     font-size: 300%;
   }
-  
-  /* BESTSELLERS SECTION */
+/*  FOOTER END*/
+
+/* HOME PAGE*/
+/* BESTSELLERS SECTION */
 
 .best-title {
   text-align: center;
@@ -203,3 +207,103 @@ footer {
   align-self: center;
   line-height: 2;
 }
+/* HOME PAGE END*/
+
+
+
+
+
+/* CONTACTS PAGE*/
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 4px;
+  margin: 20px auto;
+  align-self: flex-start;
+}
+
+.form-order {
+  border: 3px solid #102b5a;
+  background-color: #b1c3d2;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+}
+
+.field {
+  padding: 10px;
+  width: 50%;
+}
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 100%;
+  line-height: 2.5em;
+}
+
+.descript {
+ 
+
+  display: inline-block;
+  margin: 10px auto 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.txt-area {
+  font-size: inherit;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.btn-submit {
+  margin: 10px auto 20px;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2em;
+  border-radius: 25px;
+  border: 1px solid #bf375b;
+  background-color: #ff6264;
+  text-align: center;
+}
+
+.btn-submit a:link,
+.btn-submit a:visited {
+  color: #102b5a;
+  text-decoration: none;
+}
+
+.btn-submit:hover,
+.btn-submit a:hover {
+  color: #fff;
+  background-color: #bf375b;
+}
+
+.disclaimer {
+  width: 50%;
+  align-self: center;
+  margin-bottom: 20px;
+  padding: 0.5em;
+  line-height: 1.8em;
+  border: 5px double #bf375b;
+}
+.disclaimer p {
+  font-size: 1.5em;
+}
+
+/* CONTACTS PAGE  END*/
