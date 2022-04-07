@@ -208,6 +208,68 @@ footer {
 /* HOME PAGE END*/
 
 
+/*  SHOWCASE PAGE */
+#showcase-title {
+  margin: 20px;
+  text-align: center;
+}
+
+.products {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product-card {
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  border: 2px solid #b1c3d2;
+  box-shadow: 5px 5px 8px #b1c3d2;
+}
+
+.product-card img {
+  min-height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pr-description {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 10px;
+}
+
+.btn-card {
+  width: 55%;
+  margin: 10px auto 20px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 25px;
+  border: 1px solid #bf375b;
+  background-color: #ff6264;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.btn-card a:link,
+.btn-card a:visited {
+  color: #102b5a;
+  text-decoration: none;
+}
+
+.btn-card:hover,
+.btn-card a:hover {
+  color: #fff;
+  background-color: #bf375b;
+}
+
+/*  SHOWCASE PAGE END */
+
 
 
 
