@@ -183,14 +183,12 @@ footer {
   margin: 20px auto 20px;
   width: 75%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
   align-items: flex-start;
 }
 
 .hero img {
   min-height: 250px;
-  width: 100%;
   object-fit: cover;
 }
 
