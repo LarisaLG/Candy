@@ -245,21 +245,16 @@ footer {
 }
 
 .btn-card {
+  display:block;
   width: 55%;
   margin: 10px auto 20px;
-  color: #fff;
   font-size: 20px;
+  text-decoration: none;
   border-radius: 25px;
   border: 1px solid #bf375b;
   background-color: #ff6264;
   text-align: center;
-  line-height: 1.5;
-}
-
-.btn-card a:link,
-.btn-card a:visited {
-  color: #102b5a;
-  text-decoration: none;
+  line-height: 2em;
 }
 
 .btn-card:hover,
