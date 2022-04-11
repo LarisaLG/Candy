@@ -294,6 +294,17 @@ footer {
   width: 50%;
 }
 
+.txt-field, #message{
+  outline: none;
+}
+
+.txt-field:hover,
+#message:hover,
+.txt-field:focus,
+#message:focus {
+  border: 2px solid #bf375b;
+}
+
 input[type="text"],
 input[type="email"] {
   display: block;
@@ -302,8 +313,6 @@ input[type="email"] {
 }
 
 .descript {
- 
-
   display: inline-block;
   margin: 10px auto 20px;
   padding: 10px;
