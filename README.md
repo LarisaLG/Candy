@@ -87,12 +87,12 @@ I used Balsamiq to create wireframes to organize the structure of the site.
 
 ![](assets/docs/images/desktop.png)
 </details>
-<br>
+
 <details><summary>Wireframe version for tablets</summary>
 
 ![](assets/docs/images/tablet.png)
 </details>
-<br>
+
 <details><summary>Wireframe version for mobile devices</summary>
 
  ![](assets/docs/images/mobile.png)
@@ -107,17 +107,17 @@ The final site due to responsiveness may differ from wireframes.
 
 ![](assets/docs/images/desktop_home.png)
 </details>
-<br>
+
 <details><summary>Contacts page colour mockup for desktop</summary>
 
 ![](assets/docs/images/desktop_contacts.png)
 </details>
-<br>
+
 <details><summary>Home page colour mockup for mobile devices</summary>
 
 ![](assets/docs/images/tablet_home.png)
 </details>
-<br>
+
 <details><summary>Contacts page colour mockup for mobile devices</summary>
 
 ![](assets/docs/images/tablet_contacts.png)
@@ -136,7 +136,9 @@ The navigation bar contains links to the logo, Home page, Showcase, and Contacts
 The current page in the navigation menu is underlined and highlights the link on hover.
 The navigation bar is fully responsive, for smaller screens the bar format changes to a column orientation with the logo at the top center of the page and the header links vertically aligned at the bottom.
 
+
 **Header**
+
 Each page has a header with a logo and a menu.
 The navigation contains links to the Home page, Showcase, and Contacts.
 The current page in the navigation menu is underlined and highlights the link on hover.
