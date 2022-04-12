@@ -42,6 +42,10 @@
     margin: 30px 0;
   }
 
+  h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+  }
   
   /* NAVIGATION */
   
@@ -81,7 +85,7 @@
   }
   
   .touch-features {
-    min-height: 250px;
+    min-height: 230px;
     width: 75%;
     margin: 10px auto 30px;
     background-color: #b1c3d2;
@@ -162,7 +166,6 @@ footer {
   }
 
 .best-card {
-  padding: 10px;
   margin: 10px;
   text-align: center;
   border: 1px solid #dfddd5;
