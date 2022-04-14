@@ -391,7 +391,7 @@ textarea {
 
 /*  MEDIA QUERIES   */
 /*for larger and medium screens size from 1200px and down*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
  
   /* navigation */
   #menu li {
@@ -399,12 +399,19 @@ textarea {
     margin-bottom: 25px;
   }
 
-  /* BESTSELLERS SECTION */
-  .best-card {
-    margin: 20px auto;
-    width: 50%;
+/* Bestsellers section */
+/*narrow container to wrap cards */
+  .bestsellers {
+    width: 60%;
   }
 
+  .bestsellers img {
+    width: 250px;
+    height: 300px;
+    }
+/* Bestsellers section end */
+
+/* Section Welcome */
   .welcome {
     flex-direction: column;
     align-items: center;
@@ -417,7 +424,16 @@ textarea {
   .welcome-story {
     padding: 2.5em;
   }
+/* Section Welcome end */
 
+/* Section Touch */
+.touch-features{
+  flex-wrap: nowrap;
+}
+/* Section Touch end*/
+
+
+/* Contacts page  */
   .form-order {
     width: 75%;
   }
@@ -425,33 +441,69 @@ textarea {
   .disclaimer {
     width: 75%;
   }
-
 }
+/* Contacts page  end */
+
 
 
 /* for screens that are 768px wide or less */
-@media screen and (max-width: 768px) {
-  header {
-    /* min-width:100%; */
-    padding: 10px 20px;
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  /* Header */
+    header {
+      padding: 10px 20px;
+    }
+  
+    .head-logo img {
+      width: 7em;
+      height: 6em;
+    }
+  
+    /* navigation */
+  #menu {
+    margin-top:10px;
   }
-
-  .head-logo img {
-    width: 5em;
-    /* height: 6em; */
-  }
-
-  /* navigation */
-
+  
   #menu li {
-    padding: 0 0.5em;
-    margin-bottom: 10px;
-    font-size: 0.8em; 
-  }
+      padding: 0 0.5em;
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+  /* Header end*/
 
-  /* CONFIRM PAGE */
+  
+/*Home page*/
+/* Welcome section */
+.welcome {
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-subtitle {
+  align-self: center;
+}
+/* Home page end*/
+
+/* Section Touch */
+.touch-features {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+/* Section Touch end*/
+
+
+/* Contacts page*/
+.form-order {
+  width: 75%;
+}
+
+.disclaimer {
+  width: 75%;
+}
+/* Contacts page end */
+
+
+  /* Confirm page */
   .redirect {
-    /* border: 2px solid orange; */
     width: 75%;
   }
 
@@ -461,67 +513,95 @@ textarea {
     line-height: 1.5;
     padding: 2em;
   }
+   /* Confirm page end */
 }
 
-/* for screens that are 600px wide or less */
-@media screen and (max-width: 600px) {
+/* for screens that are 480px wide or less */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  /* Header */
   header {
-    min-width: 100%;
-    align-items: center;
-    padding: 0;
+      align-items: center;
+    }
+    .head-logo img {
+      margin-left: 20px;
+    }
+  
+    /* navigation */
+    #menu li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  /* Header end*/
+  
+  /* Section Touch */
+  .touch-title {
+    letter-spacing: 0;
   }
-
-  /* navigation */
-  #menu li {
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  /* WELCOME SECTION */
-
-  .welcome {
-    margin: 20px auto 20px;
-    flex-direction: column;
-  }
-
-  .hero img {
-    width: 100%;
-  }
-
-  .welcome-story {
-    padding: 10px;
-  }
-
-  /* SECTION TOUCH */
-
-  .touch {
-    min-height: 250px;
-  }
-
+  
   .touch-features {
-    flex-direction: column;
-    align-items: center;
+      padding-top: 50px;
   }
-
-  /* FORM PAGE   */
-
-  .form-order {
-    width: 90%;
+  /* Section Touch end*/
+  
+  /* Home page*/
+  /* Welcome section */
+    .welcome {
+      margin: 20px auto;
+      flex-direction: column;
+    }
+  
+    .hero img {
+      width: 100%;
+    }
+  
+    .welcome-subtitle {
+    align-self: center;
   }
-
-  .field {
-    width: 100%;
+    .welcome-story {
+      padding: 10px;
+    }
+  /* Home page end*/
+  
+    
+  /* Contacts page   */
+  .form h2 {
+    font-size: 1.8em;
   }
-
-  .btn-submit {
-    font-size: 0.8em;
+    .form-order {
+      width: 90%;
+    }
+  
+    .field {
+      width: 100%;
+    }
+  
+    .btn-submit {
+      font-size: 0.8em;
+    }
+  
+    .disclaimer {
+      width: 90%;
+    }
+    .disclaimer p {
+      font-size: 1.2em;
+    }
+  /* Contacts page  end */
+  
+  /* Confirm page */
+  .confirm-txt {
+    width: 75%;
   }
-
-  .disclaimer {
-    width: 90%;
+  
+  .confirm-txt p {
+     padding: 0;
   }
-  .disclaimer p {
-    font-size: 1.2em;
+  
+  .redirect {
+    width: 75%;
   }
-
-}
+  
+  .redirect p {
+    padding: 1em;
+  }
+  /* Confirm page end */
+  }
