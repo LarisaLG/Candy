@@ -16,7 +16,7 @@
   p {
     font-size: 18px;
   }
-  /* HEADING MENU AND LOGO */
+  /* Header */
   
   header {
     min-width: 100%;
@@ -47,7 +47,7 @@
     font-size: 24px;
   }
   
-  /* NAVIGATION */
+  /* Navigation */
   
   #menu {
     font-size: 120%;
@@ -73,10 +73,12 @@
   .active {
     border-bottom: 2px solid #ff6264;
   }
-  /* HEADING MENU AND LOGO  END*/
+  /* Header end*/
 
 
-  /* SECTION TOUCH */
+  /* Section Touch */
+.touch {padding-top: 20px;
+}
 
   .touch-title {
     text-align: center;
@@ -102,7 +104,6 @@
     min-height: 200px;
     text-align: center;
     background-color: #b1c3d2;
-  
   }
   
   .touch-icon i {
@@ -115,12 +116,10 @@
     text-transform: uppercase;
     text-align: center;
   }
+  /* Section Touch end*/
 
-  /* SECTION TOUCH END*/
 
-
-  /*  FOOTER */
-
+/*  Footer */
 footer {
     color: #fff;
     text-align: center; 
@@ -138,10 +137,10 @@ footer {
     margin: 0 20px ;
     font-size: 300%;
   }
-/*  FOOTER END*/
+/*  Footer end*/
 
-/* HOME PAGE*/
-/* BESTSELLERS SECTION */
+/* Home page*/
+/* Bestsellers section */
 
 .best-title {
   text-align: center;
@@ -150,6 +149,7 @@ footer {
 
 .bestsellers {
   margin: 20px auto;
+  padding-bottom: 20px;
   width: 75%;
   display: flex;
   flex-direction: row;
@@ -172,13 +172,13 @@ footer {
 }
 
 .best-card > h3 {
-  font-weight: bold;
+  margin-top: 20px;
 }
 
-/* WELCOME SECTION */
+/* Welcome section */
 
 .welcome {
-  margin: 20px auto 20px;
+  margin: 30px auto;
   width: 75%;
   display: flex;
   flex-direction: row-reverse;
@@ -201,13 +201,13 @@ footer {
 .welcome-subtitle {
   border-bottom: 3px solid #ff6264;
   margin-bottom: 15px;
+  padding-top: 20px;
   align-self: flex-end;
   line-height: 2;
 }
-/* HOME PAGE END*/
+/* Home page end*/
 
-
-/*  SHOWCASE PAGE */
+/*  Showcase page */
 #showcase-title {
   margin: 20px;
   text-align: center;
@@ -261,14 +261,9 @@ footer {
   color: #fff;
   background-color: #bf375b;
 }
+/* Showcase page end */
 
-/*  SHOWCASE PAGE END */
-
-
-
-
-/* CONTACTS PAGE*/
-
+/* Contacts page */
 .form {
   display: flex;
   flex-direction: column;
@@ -311,7 +306,8 @@ footer {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="tel"] {
   display: block;
   width: 100%;
   line-height: 2.5em;
@@ -345,15 +341,8 @@ textarea {
   text-align: center;
 }
 
-.btn-submit a:link,
-.btn-submit a:visited {
-  color: #102b5a;
-  text-decoration: none;
-}
-
 .btn-submit:hover,
 .btn-submit a:hover {
-  color: #fff;
   background-color: #bf375b;
 }
 
@@ -368,8 +357,36 @@ textarea {
 .disclaimer p {
   font-size: 1.5em;
 }
+/* Contacts page end */
 
-/* CONTACTS PAGE  END*/
+/* Confirm page */
+.confirm-txt {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.confirm-txt p {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 2;
+  padding: 1em;
+}
+
+.redirect {
+  width: 50%;
+  align-content: center;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.redirect p {
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding: 2em;
+}
+/* Confirm page end */
 
 
 /*  MEDIA QUERIES   */
