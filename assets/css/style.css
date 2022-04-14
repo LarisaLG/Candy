@@ -29,7 +29,7 @@
     overflow: hidden;
   }
   
-  .head_logo img {
+  .head-logo img {
     width: 9em;
     height: 8em;
   }
@@ -523,10 +523,15 @@ textarea {
       align-items: center;
     }
     .head-logo img {
-      margin-left: 20px;
+      margin-left: 15px;
     }
   
     /* navigation */
+#menu {
+  font-size: 1em;
+  letter-spacing: 0px;
+}
+
     #menu li {
       display: block;
       margin-bottom: 10px;
