@@ -174,8 +174,15 @@ The Showcase page plays the role of a gallery and product catalog where the user
 The contact form is another way to contact the site owner.
 The contact form can be filled out and submitted by users to place an order or describe their preferences.  The user is asked for his name, phone number, e-mail address, selected product number and the content of his message.
 
+**Confirmation page**
+
+Confirmation Page is hidden and does not have direct links to go to it. This page appears after the user completes and submits the form.
+The page displays a message to the user that his message has been received and he will be redirected to the Home page.
+
+
 [Back to top](#table-of-contents)
- 
+
+
 ## Technologies Used
 
 
@@ -216,6 +223,20 @@ with the input tag button as shown below.
 
 
 ## Testing  
+
+**HTML** 
+
+The W3C Markup Validation Service was used to validate the HTML of the website.
+On the Home page, the first-level heading was intentionally omitted  in the Bestsellers section, as the bestsellers section is designed to draw attention to the work of the author. Further down in the main About Me section, the headings are structured according to the [WHATWG standards](https://html.spec.whatwg.org/multipage/sections.html).
+
+
+During validating the Confirmation page, a warning about missing headers was received.
+
+Fixed by replacing ``<section>`` tag with ``<div>`` tag.
+After fixes all pages passed the test successfully without errors and without warnings.
+Screenshots of page validation are attached below.
+
+
 
 
 
