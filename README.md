@@ -18,8 +18,10 @@
    + [Frameworks & Tools](#frameworks-&-tools)
 6. [Fixed Bugs](#fixed-bugs)
 7. [Testing](#testing)
-8. [Lighthouse](#kighthouse)
-9. [Credits](#credits)
+   + [HTML Validation](#HTML-validation)
+   + [CSS Validation](#CSS-validation)
+   + [Performance](#performance)
+8. [Credits](#credits)
 
 
 
@@ -224,27 +226,36 @@ with the input tag button as shown below.
 
 ## Testing  
 
-**HTML** 
+### HTML Validation
 
 The W3C Markup Validation Service was used to validate the HTML of the website.
 On the Home page, the first-level heading was intentionally omitted  in the Bestsellers section, as the bestsellers section is designed to draw attention to the work of the author. Further down in the main About Me section, the headings are structured according to the [WHATWG standards](https://html.spec.whatwg.org/multipage/sections.html).
 
 
 During validating the Confirmation page, a warning about missing headers was received.
-
 Fixed by replacing ``<section>`` tag with ``<div>`` tag.
 After fixes all pages passed the test successfully without errors and without warnings.
 Screenshots of page validation are attached below.
 
+[Home](assets/docs/images/index_validation.jpg) ||  [Showcase](assets/docs/images/showcase_validation.jpg) || [Contacts](assets/docs/images/contacts_validation.jpg) || [Confirm](assets/docs/images/confirm_validation.jpg)
 
 
+
+### CSS Validation
+
+The website [CSS style](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=+https%3A%2F%2Flarisalg.github.io%2FCandy%2Findex.html+&usermedium=all&vextwarning=&warning=1)  has successfully passed the W3C CSS Jigsaw Validation Service.  
+
+
+
+### Performance
+
+To test the performance and availability of the deployed site, a Lighthouse report was generated using Google Chrome Dev Tools in incognito mode.
+Report for [desktop version](assets/docs/images/desktop_lighthouse.jpg) and [mobile version](assets/docs/images/mobile_lighthouse.jpg).
 
 
 [Back to top](#table-of-contents)
-## Lighthouse
 
 
-[Back to top](#table-of-contents)
 ## Credits  
 
 + Stackoverflow 
