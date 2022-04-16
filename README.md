@@ -1,7 +1,9 @@
 # Candy Gift - Portfolio Project 1
 
-[Live webpage]()
 
+## Live Project
+
+[View the live website on GitHub Pages](https://larisalg.github.io/Candy/index.html)
 
 ## Table of Contents
 
@@ -22,6 +24,7 @@
    + [CSS Validation](#CSS-validation)
    + [Performance](#performance)
 8. [Credits](#credits)
+9. [Deployment](#deployment)
 
 
 
@@ -229,15 +232,28 @@ with the input tag button as shown below.
 ### HTML Validation
 
 The W3C Markup Validation Service was used to validate the HTML of the website.
-On the Home page, the first-level heading was intentionally omitted  in the Bestsellers section, as the bestsellers section is designed to draw attention to the work of the author. Further down in the main About Me section, the headings are structured according to the [WHATWG standards](https://html.spec.whatwg.org/multipage/sections.html).
-
-
 During validating the Confirmation page, a warning about missing headers was received.
 Fixed by replacing ``<section>`` tag with ``<div>`` tag.
 After fixes all pages passed the test successfully without errors and without warnings.
 Screenshots of page validation are attached below.
 
-[Home](assets/docs/images/index_validation.jpg) ||  [Showcase](assets/docs/images/showcase_validation.jpg) || [Contacts](assets/docs/images/contacts_validation.jpg) || [Confirm](assets/docs/images/confirm_validation.jpg)
+<details><summary>Home page</summary>
+
+![](assets/docs/images/index_validation.jpg)
+</details>
+<details><summary>Showcase page</summary>
+
+![](assets/docs/images/showcase_validation.jpg)
+</details>
+<details><summary>Contacts page</summary>
+
+![](assets/docs/images/contacts_validation.jpg)
+</details>
+<details><summary>Confirm page</summary>
+
+![](assets/docs/images/confirm_validation.jpg)
+</details>
+
 
 
 
@@ -249,8 +265,16 @@ The website [CSS style](http://jigsaw.w3.org/css-validator/validator?lang=en&pro
 
 ### Performance
 
-To test the performance and availability of the deployed site, a Lighthouse report was generated using Google Chrome Dev Tools in incognito mode.
-Report for [desktop version](assets/docs/images/desktop_lighthouse.jpg) and [mobile version](assets/docs/images/mobile_lighthouse.jpg).
+To test the performance and availability of the deployed site, a Lighthouse report was generated using Google Chrome Dev Tools in incognito mode for desktop version and mobile version.
+
+<details><summary>Desktop version</summary>
+
+![](assets/docs/images/desktop_lighthouse.jpg)
+</details>
+<details><summary>Mobile version</summary>
+
+![](assets/docs/images/mobile_lighthouse.jpg)
+</details>
 
 
 [Back to top](#table-of-contents)
@@ -261,6 +285,7 @@ Report for [desktop version](assets/docs/images/desktop_lighthouse.jpg) and [mob
 + Stackoverflow 
 + MDN Web docs
 + W3Schools
++ Slack community
  
 The part of code for social  contacts  the Footer is borrowed from the Love Running project.
 
@@ -269,6 +294,44 @@ The part of code for social  contacts  the Footer is borrowed from the Love Runn
 
 All presented photos on the site are photos of works made by my friend from her personal Instagram and Facebook accounts and used with her permission.
 Hero image for Home page taken from Pixabay.
+
+
+[Back to top](#table-of-contents)
+
+
+## Deployment
+
+The site was deployed to GitHub pages using the following procedure:
+
+
+Go to the settings tab in Github.
+
+
+Scroll down and find the Github Pages option in settings. And select a main branch or any other branch that you would like to publish and host online.
+
+
+Click "Save" button and wait for a while...
+
+
+The page will update and show: "Your site is ready to be published at ``https://username.github.io/repository-name/``
+
+
+### Making a Local Clone
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name choose button "Code",  click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash.
+Change the current working directory to the location where you want the cloned directory to be made.
+5. Type *git clone*, and then paste the URL you copied in Step 3.
+
+``> git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY``
+
+Press Enter. 
+
+Your local clone will be created.
+
+For more information follow this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+
 
 
 [Back to top](#table-of-contents)
