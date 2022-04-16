@@ -55,7 +55,7 @@ As a site owner, she wants as follows:
 * Promote the handmade gifts and the happiness they provide
 * Increase in the number of clients
 * Provide information to the clients about types of Candy Bouquets
-* website allow displaying her handmade items and allows interested person to contact her.
+* website allows displaying her handmade items and allows interested person to contact her.
 
 [Back to top](#table-of-contents)
 
@@ -77,13 +77,13 @@ The color scheme I developed based on the original image of the logo using [Adob
 Afterwards I used [Coolors](https://coolors.co/) to select a matching pallete. 
 Also in the final project, some shades of colors from the palette can be used.
 
-![Colour Scheme](assets/docs/images/color_pallete.png)
+![Color Scheme](assets/docs/images/color_pallete.png)
 
 
 
-To see what  generated color pallete matches best I used  eightshapes.com to generate an accesibility table.
+To see what  generated color pallete matches best I used  eightshapes.com to generate an accessibility table.
 
-![Accesibility_table](assets/docs/images/color_accessibility.png)
+![Accessibility_table](assets/docs/images/color_accessibility.png)
 
 
 
@@ -107,26 +107,26 @@ I used Balsamiq to create wireframes to organize the structure of the site.
 </details>
 <br>
 
-After that I moved into Figma to test the colour scheme.
+After that I moved into Figma to test the color scheme.
 As the content of the first section "Seasonal Bestsellers" of the Home page is very similar to the content of the "Showcase" page, I skipped this step to avoid a repetition.
 The final site due to responsiveness may differ from wireframes.
 
-<details><summary>Home page colour mockup for desktop</summary>
+<details><summary>Home page color mockup for desktop</summary>
 
 ![](assets/docs/images/desktop_home.png)
 </details>
 
-<details><summary>Contacts page colour mockup for desktop</summary>
+<details><summary>Contacts page color mockup for desktop</summary>
 
 ![](assets/docs/images/desktop_contacts.png)
 </details>
 
-<details><summary>Home page colour mockup for mobile devices</summary>
+<details><summary>Home page color mockup for mobile devices</summary>
 
 ![](assets/docs/images/tablet_home.png)
 </details>
 
-<details><summary>Contacts page colour mockup for mobile devices</summary>
+<details><summary>Contacts page color mockup for mobile devices</summary>
 
 ![](assets/docs/images/tablet_contacts.png)
 </details>
@@ -170,7 +170,7 @@ Clicking on the Icons takes the user to the external website in a new window.
 **Home page**
 
 At the top of the Homepage, to attract the visitor's attention, samples of work are presented in the Seasonal Bestsellers section.
-Below is section "About me", which allows you to get a little idea about the owner of the site and what she does. Next to the short brief there is also an image of the Hero, corresponding to the theme of the site.
+Below is the section "About me", which allows you to get a little idea about the owner of the site and what she does. Next to the short brief there is also an image of the Hero, corresponding to the theme of the site.
 
 **Showcase page**
 
@@ -184,8 +184,8 @@ The contact form can be filled out and submitted by users to place an order or d
 
 **Confirmation page**
 
-Confirmation Page is hidden and does not have direct links to go to it. This page appears after the user completes and submits the form.
-The page displays a message to the user that his message has been received and he will be redirected to the Home page.
+The Confirmation Page is hidden and does not have direct links to go to it. This page appears after the user completes and submits the form.
+The page displays a message to the user that his message has been received, and he will be redirected to the Home page.
 
 
 [Back to top](#table-of-contents)
@@ -316,7 +316,7 @@ Scroll down and find the Github Pages option in settings. And select a main bran
 Click "Save" button and wait for a while...
 
 
-The page will update and show: "Your site is ready to be published at ``https://username.github.io/repository-name/``
+The page will update and show: "Your site is ready to be published at ``https://username.github.io/repository-name/``"
 
 
 ### Making a Local Clone
