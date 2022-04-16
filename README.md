@@ -1,6 +1,9 @@
 # Candy Gift - Portfolio Project 1
 
 
+![Candy Gift preview](assets/docs/images/responsive_preview.jpg "Website preview at different resolutions") 
+
+
 ## Live Project
 
 [View the live website on GitHub Pages](https://larisalg.github.io/Candy/index.html)
@@ -331,7 +334,6 @@ Press Enter.
 Your local clone will be created.
 
 For more information follow this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
-
 
 
 [Back to top](#table-of-contents)
