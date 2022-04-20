@@ -1,6 +1,5 @@
 # Candy Gift - Portfolio Project 1
 
-
 ![Candy Gift preview](assets/docs/images/responsive_preview.jpg "Website preview at different resolutions") 
 
 
@@ -226,6 +225,20 @@ To fix this, I replaced the button link tag
 with the input tag button as shown below.
 
 ```<input class="btn-submit" type="submit" value="Send Message!"> ```
+</br>
+
+
+In a form text field, the cursor is far from the left edge of the field.
+
+<details><summary>Incorrect cursor position in the text field</summary>
+
+![](assets/docs/images/form_issue.jpg)
+</details>
+
+
+Fixed by removing invisible spaces between ``<textarea>``
+ tags, cursor appears at left edge of text field.
+
 
 [Back to top](#table-of-contents)
 
@@ -291,6 +304,9 @@ To test the performance and availability of the deployed site, a Lighthouse repo
 + Slack community
  
 The part of code for social  contacts  the Footer is borrowed from the Love Running project.
+
+Special thanks to my mentor Martina Terlevic and cohort facilitator Kasia Bogucka for answering my questions and for their support during the project
+
 
 
 ### Media  
